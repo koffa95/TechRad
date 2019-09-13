@@ -1,0 +1,189 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kolfinna/CLionProjects/TechnicalRadiation/Services/Services.csproj": {}
+  },
+  "projects": {
+    "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj",
+        "projectName": "Models",
+        "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/Repositories.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj": {
+                "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/kolfinna/CLionProjects/TechnicalRadiation/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/CLionProjects/TechnicalRadiation/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Services/Services.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj": {
+                "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Models/Models.csproj"
+              },
+              "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/Repositories.csproj": {
+                "projectPath": "/home/kolfinna/CLionProjects/TechnicalRadiation/Repositories/Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
