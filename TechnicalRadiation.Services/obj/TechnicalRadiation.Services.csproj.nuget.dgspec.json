@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Services/TechnicalRadiation.Services.csproj": {}
+  },
+  "projects": {
+    "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj",
+        "projectName": "TechnicalRadiation.Models",
+        "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/TechnicalRadiation.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/TechnicalRadiation.Repositories.csproj",
+        "projectName": "TechnicalRadiation.Repositories",
+        "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/TechnicalRadiation.Repositories.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj": {
+                "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Services/TechnicalRadiation.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Services/TechnicalRadiation.Services.csproj",
+        "projectName": "TechnicalRadiation.Services",
+        "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Services/TechnicalRadiation.Services.csproj",
+        "packagesPath": "/home/kolfinna/.nuget/packages/",
+        "outputPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/kolfinna/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj": {
+                "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Models/TechnicalRadiation.Models.csproj"
+              },
+              "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/TechnicalRadiation.Repositories.csproj": {
+                "projectPath": "/home/kolfinna/TechnicalRadiation/TechnicalRadiation.Repositories/TechnicalRadiation.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
