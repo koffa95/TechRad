@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
-using TechnicalRadiation.Models.DTOs;
+using TechnicalRadiation.Models.DTO;
 using TechnicalRadiation.Models.Entities;
 using TechnicalRadiation.Models.InputModels;
 

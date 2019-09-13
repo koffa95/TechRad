@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TechnicalRadiation.Models;
-using TechnicalRadiation.Models.DTOs;
+using TechnicalRadiation.Models.DTO;
 using TechnicalRadiation.Services;
 using TechnicalRadiation.Models.InputModels;
 using AutoMapper;

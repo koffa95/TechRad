@@ -7,7 +7,8 @@ namespace TechnicalRadiation.WebApi.Attributes
 {
     public class AuthorizeBearerAttribute : Attribute, IAuthorizationFilter
     {
-        private readonly string AuthToken = "Bearer 2fc8813c-be65-4dba-8b91-6e73d928ed56";
+        private readonly string AuthToken = "Bearer 2356dt2f-5be4-59ad-9d8c-4345dc3af54a";
+        //"Bearer 2fc8813c-be65-4dba-8b91-6e73d928ed56";
 
         public void OnAuthorization(AuthorizationFilterContext context)
         {

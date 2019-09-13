@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using TechnicalRadiation.Models.DTOs;
+using TechnicalRadiation.Models.DTO;
 using TechnicalRadiation.Repositories;
 using TechnicalRadiation.Models.InputModels;
 using AutoMapper;

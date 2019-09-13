@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using AutoMapper;
-using TechnicalRadiation.Models.DTOs;
+using TechnicalRadiation.Models.DTO;
 using TechnicalRadiation.Models.Extensions;
 using TechnicalRadiation.Models.InputModels;
 using TechnicalRadiation.Repositories;

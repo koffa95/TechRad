@@ -1,6 +1,6 @@
 using System;
 using AutoMapper;
-using TechnicalRadiation.Models.DTOs;
+using TechnicalRadiation.Models.DTO;
 using TechnicalRadiation.Models.Entities;
 using TechnicalRadiation.Models.InputModels;
 
